@@ -11,6 +11,7 @@ Based on [this Stackoverflow answer](https://stackoverflow.com/a/51570570).
 - Visual Studio Community 2017 in trial mode
 
 ## Usage
-Just download the python file from this repository and use it to launch Visual Studio (i.e. change your shortcut(s) from devenv.exe to this script). If your Visual Studio installation directory is different than the default edit the `DEVENV_EXECUTABLE_PATH` constant value in the script.
+Just download the python file from this repository and use it to launch Visual Studio (i.e. change your shortcut(s) from devenv.exe to this script). Adminstrative privileges will be needed since it edits a registry key value, so make sure to run it as administrator.
+If your Visual Studio installation directory is different than the default edit the `DEVENV_EXECUTABLE_PATH` constant value in the script.
 
 The script will flash the cmd window background to green if everything goes well, red if an exception occurred, so you should be able to tell at a glance if it worked.
