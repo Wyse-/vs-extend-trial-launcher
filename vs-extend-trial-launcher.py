@@ -8,8 +8,8 @@ DEFAULT_REG_KEY_NAME = ""
 LICENSE_REGISTRY_KEY_PATH = r'Licenses\5C505A59-E312-4B89-9508-E162F8150517\08878'
 DAYS_TO_ADD = 31
 DEVENV_EXECUTABLE_PATH = r'C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\devenv.exe'
-CMD_BG_COLOR_GREEN = 'color 4f'
-CMD_BG_COLOR_RED = 'color 2f'
+CMD_BG_COLOR_GREEN = 'color 2f'
+CMD_BG_COLOR_RED = 'color 4f'
 
 
 def start_vs():
@@ -73,6 +73,5 @@ try:
 	os.system(CMD_BG_COLOR_GREEN)
 	print("Starting devenv.exe and exiting...")
 	start_vs()
-	quit()
 except:
 	os.system(CMD_BG_COLOR_RED)
