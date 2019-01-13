@@ -3,7 +3,7 @@ This script will extend the trial of Visual Studio Community 2017 and launch it.
 
 As to why you would want to use this: personally I use it because I don't want to keep a Microsoft account logged in into Visual Studio just to use it, which I assume is just required for datamining purposes. This is also the only way I know of using Visual Studio fully offline for an undefined time: you would think that logging into an account once, or using the license file of a previously logged in account since that is also possible, and going offline would solve the problem, but apparently licenses go "stale" after a while.
 
-Based on (this Stackoverflow answer)[https://stackoverflow.com/a/51570570].
+Based on [this Stackoverflow answer](https://stackoverflow.com/a/51570570).
 
 ## Requirements
 - Python 3.x
